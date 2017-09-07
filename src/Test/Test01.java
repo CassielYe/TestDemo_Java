@@ -18,6 +18,7 @@ public class Test01
 			{	writer.println( r.nextInt() );
 			}
 			writer.close();
+			System.out.println( r.nextInt());
 		}
 		catch(IOException e)
 		{	System.out.println("An error occured while trying to write to the file");
